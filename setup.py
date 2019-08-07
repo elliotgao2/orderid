@@ -1,0 +1,36 @@
+from setuptools import setup, find_packages
+
+
+setup(
+    name="orderid",
+    version="1.0.0",
+    description="Short unique ordered ID generator.",
+    url="https://github.com/gaojiuli/orderid",
+    author="Jiuli Gao",
+    author_email="gaojiuli@gmail.com",
+    license="MIT",
+    packages=find_packages(),
+    install_requires=("mmh3",),
+    classifiers=[
+        "Development Status :: 5 - Production/Stable",
+        "Programming Language :: Python",
+        "Programming Language :: Python :: 2.7",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.1",
+        "Programming Language :: Python :: 3.2",
+        "Programming Language :: Python :: 3.3",
+        "Programming Language :: Python :: 3.4",
+        "Programming Language :: Python :: 3.5",
+        "Programming Language :: Python :: 3.6",
+        "Environment :: Console",
+        "Intended Audience :: Developers",
+        "Intended Audience :: System Administrators",
+        "License :: OSI Approved :: BSD License",
+        "Topic :: Internet :: WWW/HTTP",
+        "Topic :: Software Development",
+        "Topic :: System :: Networking",
+        "Topic :: Terminals",
+        "Topic :: Text Processing",
+        "Topic :: Utilities",
+    ],
+)
