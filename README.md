@@ -1,5 +1,7 @@
 # OrderId
 
+For orderid, transaction id, log id, etc.
+
 - Short. 32 digit lengths.
 - Unique. Any time any computer.
 - Ordered. By time.
